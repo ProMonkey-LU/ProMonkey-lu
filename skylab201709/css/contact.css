@@ -1,0 +1,112 @@
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.navbar-brand img{
+	max-width:45px;
+}
+textarea {
+	resize: none;
+}
+.container-item {
+	height: 800px;
+}
+/* 主体  */
+#full-container {
+	background-image: url(../img/picture.jpg);
+}
+#content {
+	padding-top: 250px;
+	font-size: 25px;
+	font-family: "微软雅黑";
+	color: #fff;
+}
+#content p {
+	display: block;
+	margin-bottom: 2px;
+}
+#content i {
+	font-size: 50px;
+	font-style: normal;
+}
+#content span {
+	font-size: 180px;
+}
+.big-text {
+	font-size: 45px;
+}
+
+/* contact */
+#contact-container {
+	margin-top: 100px;
+}
+#contact-top {
+	height: 50px;
+	overflow: hidden;
+	z-index: 10;
+}
+#contact-top span {
+	font-family: "微软雅黑";
+	color: #75c2d3;
+	z-index: 10;
+}
+#contact-bottom {
+	height: 1100px;
+	background-color: #75c2d3;
+}
+#contact-bottom span {
+	height: 50px;
+	top: -50px;
+	font-family: "微软雅黑";
+	color: #fff;
+	z-index: 9;
+}
+.contact-title {
+	font-size: 60px;
+}
+/* 表单 */
+#form-container {
+}
+#contact-bottom {
+	position: relative;
+}
+#input-container {
+	position: absolute;
+	top: 100px;
+}
+.input-box {
+	width: 120px;
+	border: 0px;
+	border-bottom: 1px solid #fff;
+	background-color: #ffdb8a;
+}
+#submit-container {
+	padding-top: 15px;
+}
+#submit {
+	height: 40px;
+	width: 90px;
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: #ff7563;
+}
+#submit:hover {
+	cursor: pointer;
+}
+/* 头部尾部  */
+#container {
+	min-height: 100%;
+	/*使内容高度和body一样*/
+	margin-bottom: -80px;
+	/*向上缩减80像素，不至于footer超出屏幕可视范围*/
+}
+
+.footer-box {
+	text-align: center;
+	height: 100px;
+	background: #212529;
+}
+.footer-box .p {
+	padding-top: 20px;
+}

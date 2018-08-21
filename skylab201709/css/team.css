@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+.container{
+	background-color: #8ec6d3;
+	border-bottom: solid #8ec6d3 30px;
+}
+
+.navbar-brand img{
+	max-width:45px;
+	margin-top:-7px;
+}
+.row1-p{
+	margin-left: 80px;
+	font-size: 20px;
+}
+.row1-txt{
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	color: aliceblue;
+	
+}
+.row1-name{
+	margin-left: 400px;
+}
+.row{
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+.row1{
+	height: 100%;
+	width: 100%;
+	margin-top: 63px;
+	padding: 30px;
+	}
+
+.team-tit{
+	height: 55px;
+	text-align:center;
+	padding: 2px 0;
+	margin-top: 40px;
+	border: solid 2px #8B8B8B ;
+	border-radius: 12px ;
+	background-color:#ffe5a9;
+}
+.team-img{
+	overflow: hidden;
+	position: relative;
+	display: block;
+}
+.team-img img{
+	height: 300px;
+	width: 240px;
+	width: 100%;
+}
+.team-con{
+	display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: -100%;
+    right: 0;
+	color:aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.team-img:hover .team-con{
+
+	bottom:0;
+}
+.team-post{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #ff7563;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+    color: #fff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 40px;
+    text-align: center;
+    line-height: 1.1;
+}
+.team-class{
+	position: relative;
+	margin-top: 30px;
+	padding: 0 35px ;
+}
+.footer-box{
+	text-align: center;
+	height:100px; 
+    background: #212529; 
+  
+}
+.p{
+	padding-top: 20px;
+}

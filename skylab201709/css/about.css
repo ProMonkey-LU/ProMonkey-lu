@@ -1,0 +1,154 @@
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding-top: 70px;
+}
+p{
+	
+}
+/* 隐藏超出文本 */
+#sky-container-top, .sky-content {
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+/* 主体 */
+
+.main-item {
+	text-align: center;
+	margin-bottom: 100px;
+	/*border: 1px solid red;*/
+}
+
+.main-item div {
+	/*border: 1px solid green;*/
+}
+/* 关于  */
+.navbar-brand img{
+	max-width:45px;
+}
+#about-container {
+	margin-top: 50px;
+}
+#about-container-top {
+	height: 12px;
+}
+#about-me-top {
+	color: 	#ffcf63;
+	font-size: 70px;
+	font-family: "微软雅黑";
+	z-index: 1;
+}
+#about-container-bottom {
+	overflow: hidden;
+	background-color: #ffcf63;
+}
+#about-me-bottom {
+	top: -52px;
+	color: 	#fff;
+	font-size: 70px;
+	font-family: "微软雅黑";
+	z-index: 2;
+}
+#about-container-bottom p {
+	padding: 0 15px 10px 15px;
+	text-indent: 2em;
+	font-family: "微软雅黑";
+	color: #fff;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+#about-title {
+	color: #ffcf63;
+	font-size: 40px;
+	font-family: "微软雅黑";
+}
+
+/* content-item */
+.headlines {
+	text-indent: 3em;
+	font-size: 30px;
+	font-family: "微软雅黑";
+	color: #000;
+}
+.headlines2 {
+	font-size: 30px;
+	font-family: "微软雅黑";
+	color: #000;
+}
+#img-left {
+	background-image: url(../img/img-left.jpg);
+	background-position: center;
+}
+#img-right {
+	background-image: url(../img/img-right.jpg);
+	background-position: center;
+}
+.item-img {
+	position: relative;
+	z-index: 9;
+}
+
+.item-img img {
+	height: 300px;
+	width: 100%;
+}
+.item-title {
+	line-height: 300px;
+	font-size: 30px;
+	font-family: "微软雅黑";
+	color: #fff;
+}
+
+.item-content {
+	background: #75c2d3;
+	padding-top: 20px;
+	text-indent: 2em;
+	color: #fff;
+}
+/* sky */
+#sky-container{
+	
+}
+#sky-container-top {
+	height: 65px;
+	text-align: center;
+}
+.inner-title-top {
+	color: 	#ffcf63;
+	font-size: 25px;
+	z-index: 10;
+}
+#sky-container-bottom {
+	background-color: #ffcf63;
+	text-align: center;
+}
+.inner-title-bottom {
+	top: -22px;
+	color: #fff;
+	font-size: 25px;
+	z-index: 9;
+}
+.sky-content {
+	margin-bottom: 20px;
+	font-family: "微软雅黑";
+	color: #fff;
+}
+
+/* 头部尾部  */
+#container {
+	min-height: 100%;
+	/*使内容高度和body一样*/
+	margin-bottom: -80px;
+	/*向上缩减80像素，不至于footer超出屏幕可视范围*/
+}
+
+.footer-box {
+	text-align: center;
+	height: 100px;
+	background: #212529;
+}
+.footer-box .p {
+	padding-top: 20px;
+}
