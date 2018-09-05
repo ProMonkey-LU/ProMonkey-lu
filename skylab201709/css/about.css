@@ -96,7 +96,7 @@ p{
 }
 .item-title {
 	line-height: 300px;
-	font-size: 30px;
+	font-size: 50px;
 	font-family: "微软雅黑";
 	color: #fff;
 }
@@ -107,6 +107,13 @@ p{
 	text-indent: 2em;
 	color: #fff;
 }
+.txt-strong{
+	font-size: 25px;
+	font-family: Consstantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.txt-strong2{
+	font-size:30px;
+	font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'; }
 /* sky */
 #sky-container{
 	
@@ -150,5 +157,6 @@ p{
 	background: #212529;
 }
 .footer-box .p {
-	padding-top: 20px;
-}
+	padding-top: 25px;
+	padding-bottom: 10px;}
+

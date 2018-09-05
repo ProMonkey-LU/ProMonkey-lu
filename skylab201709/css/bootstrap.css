@@ -4149,8 +4149,7 @@ input[type="button"].btn-block {
 @media (max-width: 991.98px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
+   
   }
 }
 
@@ -6127,7 +6126,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #dcdcdc !important;
+  background-color:#dcdcdc;
 }
 
 a.bg-light:hover, a.bg-light:focus,

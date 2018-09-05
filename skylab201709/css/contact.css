@@ -6,9 +6,7 @@ body {
 .navbar-brand img{
 	max-width:45px;
 }
-textarea {
-	resize: none;
-}
+
 .container-item {
 	height: 800px;
 }
@@ -48,12 +46,12 @@ textarea {
 }
 #contact-top span {
 	font-family: "微软雅黑";
-	color: #75c2d3;
+	color: #bcbcc8;
 	z-index: 10;
 }
 #contact-bottom {
 	height: 1100px;
-	background-color: #75c2d3;
+	background-color:#bcbcc8;
 }
 #contact-bottom span {
 	height: 50px;
@@ -101,12 +99,15 @@ textarea {
 	margin-bottom: -80px;
 	/*向上缩减80像素，不至于footer超出屏幕可视范围*/
 }
-
+.container-fluid{
+	padding: 0;
+}
 .footer-box {
 	text-align: center;
-	height: 100px;
-	background: #212529;
+	height:100px; 
+    background: #212529; 
+	margin-bottom:0px;
 }
 .footer-box .p {
-	padding-top: 20px;
-}
+padding-top: 25px;
+	padding-bottom: 10px;}

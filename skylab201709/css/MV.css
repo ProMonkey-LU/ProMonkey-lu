@@ -4,8 +4,9 @@
 .navbar-brand img{
 	max-width:45px;
 }
-.MV{
-	width: 100%;
+.mv{
+	height: 670px;
+	width:100%;
 }
 video{
 	margin-left: 10%;
@@ -20,5 +21,5 @@ video{
 	margin-bottom: 0px;
 }
 .p{
-	padding-top: 20px;
-}
+padding-top: 25px;
+	padding-bottom: 10px;}
