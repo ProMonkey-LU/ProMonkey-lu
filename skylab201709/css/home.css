@@ -145,8 +145,8 @@ body {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-	width: 35px;
-	height: 200px;
+	width: 30px;
+	height: 25%;
 }
 /*New Section*/
 .bg-dark-warm {
@@ -226,4 +226,9 @@ body {
 }
 .mb-4 img{
 	width: 72px;
+}
+.zhushi{
+	text-align: center;
+	color: #bcbcc8;
+	background-color: #363534;
 }

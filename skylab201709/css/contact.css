@@ -108,6 +108,11 @@ body {
     background: #212529; 
 	margin-bottom:0px;
 }
+.zhushi{
+	text-align: center;
+	color:aliceblue;
+	background-color:#bcbcc8 ;
+}
 .footer-box .p {
-padding-top: 25px;
+	padding-top: 25px;
 	padding-bottom: 10px;}
